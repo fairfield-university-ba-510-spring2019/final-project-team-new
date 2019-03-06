@@ -27,7 +27,7 @@ __Spring 2019__
 | __MID__     | Primary Key - this is a surrogate key assigned to each course meeting       |
 | *CRN*  | Foreign Key - as above        |
 | *Term*  | Foreign Key - as above        |
-| *LID*    | Foreign Key - as above      |
+| *LID*    | Foreign Key - as below      |
 | Day  | The day of each meeting        |
 | Start Time     | The start time of each meeting      |
 | End Time  | The end time of each meeting        |
