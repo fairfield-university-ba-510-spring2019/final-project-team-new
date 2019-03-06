@@ -1,5 +1,8 @@
 # BA 510 Course Data Project
 __Spring 2019__
+
+## Entity Relationship Diagram (ERD)
+
 ![](Courses.jpeg)
 
 ## Data Dictionary 
