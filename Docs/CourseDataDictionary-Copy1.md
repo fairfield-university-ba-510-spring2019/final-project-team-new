@@ -46,7 +46,7 @@ The location for each class time meeting
 | Faculty | The name of the instructor for each course        |
 
 
-### Catolog
+### Catalog
 | Column      | Description |
 | ----------- | ----------- |
 | __Cat_ID__     | Primary key - The Catalog ID      |
