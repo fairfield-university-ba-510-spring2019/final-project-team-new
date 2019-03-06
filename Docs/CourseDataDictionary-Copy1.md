@@ -31,13 +31,13 @@ __Spring 2019__
 | Day  | The day of each meeting        |
 | Start Time     | The start time of each meeting      |
 | End Time  | The end time of each meeting        |
-The location for each class time meeting
+
 
 ### Location
 | Column      | Description |
 | ----------- | ----------- |
 | __LID__     | Primary key - The Location ID       |
-| Room | The name of room where the course meeting takes place        |
+| Room | The location for each class time meeting       |
 
 ### Faculty
 | Column      | Description |
