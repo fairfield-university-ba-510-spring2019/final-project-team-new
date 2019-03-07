@@ -1,10 +1,13 @@
 # BA 510 Course Data Project
 __Spring 2019__
+
+## Entity Relationship Diagram (ERD)
+
 ![](Courses.jpeg)
 
 ## Data Dictionary 
 
-## Courses
+### Courses
 | Column      | Description |
 | ----------- | ----------- |
 | __CRN__     | Primary Key - A unique code given by the university to identify each class       |
@@ -18,32 +21,32 @@ __Spring 2019__
 | Actual  | The number of students registered for that section of course        |
 | Remaining  | The number of seats still available in each section        |
 
-## Course_Meeting
+### Course_Meeting
 | Column      | Description |
 | ----------- | ----------- |
 | __MID__     | Primary Key - this is a surrogate key assigned to each course meeting       |
 | *CRN*  | Foreign Key - as above        |
 | *Term*  | Foreign Key - as above        |
-| *LID*    | Foreign Key - as above      |
+| *LID*    | Foreign Key - as below      |
 | Day  | The day of each meeting        |
 | Start Time     | The start time of each meeting      |
 | End Time  | The end time of each meeting        |
-The location for each class time meeting
 
-## Location
+
+### Location
 | Column      | Description |
 | ----------- | ----------- |
 | __LID__     | Primary key - The Location ID       |
-| Room | The name of room where the course meeting takes place        |
+| Room | The location for each class time meeting       |
 
-## Faculty
+### Faculty
 | Column      | Description |
 | ----------- | ----------- |
 | __FID__     | Primary key - The Faculty ID       |
 | Faculty | The name of the instructor for each course        |
 
 
-## Catolog
+### Catalog
 | Column      | Description |
 | ----------- | ----------- |
 | __Cat_ID__     | Primary key - The Catalog ID      |
@@ -52,13 +55,13 @@ The location for each class time meeting
 | Prerequisites  | The name of the courses that must be taken prior to to the course       |
 | Corequisites  | The name of the courses that must be taken at the same time to the course        |
 
-## Program
+### Program
 | Column      | Description |
 | ----------- | ----------- |
 | __Prg_Code__     | Primary key - The code for each Program type       |
 | Program Name | The name of each program the University offers        |
 
-## Fees
+### Fees
 | Column      | Description |
 | ----------- | ----------- |
 | __Cat_ID__     | Primary key - The Catalog ID       |
