@@ -4,7 +4,7 @@ When in Docs folder open a new terminal window
 .databases   #check to see you are in database
 	
     -fall
-.import ../SourceData/Fall2014/courses.csv import_coursesfall2014
+.import ../SourceData/Fall2014/courses.csv, import_coursesfall2014
 .import ../SourceData/Fall2014/course_meetings.csv import_coursemeetingsfall2014
 .import ../SourceData/Fall2015/courses.csv import_coursesfall2015
 .import ../SourceData/Fall2015/courses_meetings.csv import_coursemeetingsfall2015

@@ -41,7 +41,7 @@ CREATE TABLE Faculty (
 );
 
 CREATE TABLE Program (
-    Prg_Code VARCHAR(5),
+    Prg_Code VARCHAR(5) PRIMARY KEY,
     Program_Name VARCHAR(150)
 );
 
