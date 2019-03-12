@@ -9,10 +9,17 @@
 - Design and populate a  data warehouse designed to address our analytical questions
 - Test your databases to ensure domain, entity, relational integrity
 
-**Explanation of Work:**
+**Explanation of Work: Part 1) Database**
 - We began by creating a normalized ERD for our DataBase:
 ![](CoursesDatabaseERD.png) 
 **[CoursesDatabaseERD](CoursesDatabaseERD.png)**
   We also created a Data Dictionary for our ERD:
-**[DataBaseDataDictionary](CourseDataDictionary.md)
+**[DataBaseDataDictionary](CourseDataDictionary.md)**
+
+- We then built our database; we mainly used SQLITE3 but also used Pandas to read all the CSV files quickly and add a column explaining the catalog year.
+**[Creating Database](CourseDataETL.ipynb)**
+*PLease note at the end of the file we delete all the tables and vacuum the database in order to allow us to commit to GitHub. Do not run this code if you want to query the database*
+
+- We query and tested our database using the following file
+**[Creating Database](CourseDataETL.ipynb)**
 
