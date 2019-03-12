@@ -14,5 +14,5 @@
 ![](CoursesDatabaseERD.png) 
 **[CoursesDatabaseERD](CoursesDatabaseERD.png)**
   We also created a Data Dictionary for our ERD:
-**[](CourseDataDictionary.md)
+**[DataBaseDataDictionary](CourseDataDictionary.md)
 
