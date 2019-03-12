@@ -4,7 +4,7 @@ __Spring 2019__
 
 ## Entity Relationship Diagram (ERD)
 
-![](CourseDatabaseERD.png)
+![](CoursesDatabaseERD.png)
 
 ## Data Dictionary - Database
 
