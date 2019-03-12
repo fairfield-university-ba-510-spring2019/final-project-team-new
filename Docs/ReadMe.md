@@ -34,4 +34,7 @@
 The Datawarehouse was designed to answer questions a new Dean may have about his/her new school. The Course_Facts table contains basic information while the dimensional  tables add extra information such as meeting times, location, additional fees and program data.
 
 We began the Datawarehouse design by recreating the Database tables from our Database. We were unable to simply create a copy of the database.db file as this was too large for Jupyter Hub. Next, we created all the dimensional tables with surrogate primary keys. Creating and joining the Fact table provided challenging; we used the database tables to join the data and this allowed us to insert the primary keys from the dimensional tables in the fact table as foreign keys.
+**[Creating DataWarehouse](CourseDataWarehouseETL.ipynb)**
+
+In the future we would like to combine all class meeting times under a single MID, this would reduce some of the repetition we currently experience in our fact table.
 
