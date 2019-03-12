@@ -5,7 +5,7 @@
 ## Team New
 
 **Goal:** 
-- The goal of this project was to Extract, translate, and load data into a normalized database
+- The goal of this project was to extract, translate, and load data into a normalized database
 - Design and populate a  data warehouse designed to address our analytical questions
 - Test your databases to ensure domain, entity, relational integrity
 
@@ -42,5 +42,8 @@ In the future we would like to combine all class meeting times under a single MI
 
 - We queried and tested our database using the following file
 **[Testing Datawarehouse](CourseDataWarehouseDemo.ipynb)**
+
+Some of the issues we encountered as a group with the data and software are outlined in the file below:
+**[]()**
 
 
