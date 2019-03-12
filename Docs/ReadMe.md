@@ -38,3 +38,6 @@ We began the Datawarehouse design by recreating the Database tables from our Dat
 
 In the future we would like to combine all class meeting times under a single MID, this would reduce some of the repetition we currently experience in our fact table.
 
+
+- We queried and tested our database using the following file
+**[Testing Datawarehouse](CourseDataWarehouseDemo.ipynb)**
