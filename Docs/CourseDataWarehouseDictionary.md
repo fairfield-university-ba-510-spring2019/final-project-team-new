@@ -4,7 +4,7 @@ __Spring 2019__
 
 ## Data Dictionary - Data Warehouse
 
-![](CourseDatabaseWarehouseERD.png)
+![](CourseDataWarehouseERD.png)
 
 ### CourseFacts
 | Column      | Description | Datatype |
