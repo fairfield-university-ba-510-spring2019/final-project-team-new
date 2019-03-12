@@ -44,6 +44,6 @@ In the future we would like to combine all class meeting times under a single MI
 **[Testing Datawarehouse](CourseDataWarehouseDemo.ipynb)**
 
 Some of the issues we encountered as a group with the data and software are outlined in the file below:
-**[]()**
+**[DataIssues](DataIssues.md)**
 
 
