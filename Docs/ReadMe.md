@@ -18,7 +18,8 @@
 
 - We then built our database; we mainly used SQLITE3 but also used Pandas to read all the CSV files quickly and add a column explaining the catalog year.
 **[Creating Database](CourseDataETL.ipynb)**
-*PLease note at the end of the file we delete all the tables and vacuum the database in order to allow us to commit to GitHub. Do not run this code if you want to query the database*
+
+*Please note at the end of the file we delete all the tables and vacuum the database in order to allow us to commit to GitHub. Do not run this code if you want to query the database*
 
 - We queried and tested our database using the following file
 **[Testing Database](CourseDataTests.ipynb)**
