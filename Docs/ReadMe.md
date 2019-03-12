@@ -12,7 +12,7 @@
 **Explanation of Work: Part 1) Database**
 - We began by creating a normalized ERD for our DataBase:
 ![](CoursesDatabaseERD.png) 
-**[CoursesDatabaseERD](CoursesDatabaseERD.png)**
+[CoursesDatabaseERD](CoursesDatabaseERD.png)
   We also created a Data Dictionary for our ERD:
 **[DataBaseDataDictionary](CourseDataDictionary.md)**
 
@@ -20,6 +20,13 @@
 **[Creating Database](CourseDataETL.ipynb)**
 *PLease note at the end of the file we delete all the tables and vacuum the database in order to allow us to commit to GitHub. Do not run this code if you want to query the database*
 
-- We query and tested our database using the following file
-**[Creating Database](CourseDataETL.ipynb)**
+- We queried and tested our database using the following file
+**[Testing Database](CourseDataTests.ipynb)**
+
+ **Part 2) DataWarehouse**
+ - We began by creating an ERD for our DataWarehouse:
+![](CourseDataWarehouseERD.png) 
+[CourseDataWarehouseERD](CourseDataWarehouseERD.png)
+  We also created a Data Dictionary for our ERD:
+**[DataWarehouseDataDictionary](CourseDataWarehouseDictionary.md)**
 
